@@ -1,0 +1,34 @@
+.foot_main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.medias ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.copyrights {
+    color: aliceblue;
+}
+
+.footer_logo {
+    color: azure;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.medias li {
+    color: aliceblue;
+    list-style-type: none;
+    font-weight: 400;
+}

@@ -1,0 +1,11 @@
+.popular_main {
+    height: 90vh;
+}
+
+.popular_content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 90px;
+    justify-content: center;
+}
