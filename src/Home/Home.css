@@ -3,5 +3,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    gap:20px;
+}
+.lft{
+    text-align: left;
+}
+#pic{
+    width:60%;
+    height:60%;
+    border-radius:10px;
 }

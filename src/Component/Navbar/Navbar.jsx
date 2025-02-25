@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="main">
       <div className="logo">
         <img src={logo} alt="" />
-        <p>SHOPPING_MART</p>
+        <p>USER MANAGEMENT SITE</p>
       </div>
       <div className="nav-bar">
         <li>
@@ -31,16 +31,9 @@ const Navbar = () => {
               setmenu("api");
             }}
           >
-            <Link to="/api"> API_CRUD</Link> {menu === "api" ? <hr /> : <></>}
+            <Link to="/api"> USER</Link> {menu === "api" ? <hr /> : <></>}
           </ul>
-          <ul
-            onClick={() => {
-              setmenu("todo");
-            }}
-          >
-            <Link to="/todo"> TODO_LIST </Link>{" "}
-            {menu === "todo" ? <hr /> : <></>}
-          </ul>
+         
           {/* <ul
             onClick={() => {
               setmenu("kids");

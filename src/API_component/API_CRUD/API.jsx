@@ -91,7 +91,7 @@ const API = () => {
   }, []);
   return (
     <div className="api_main">
-      <h1>API</h1>
+      <h1>USER INFORMATION</h1>
       <div className="form">
         <div>
           <label htmlFor="name">Name</label>
